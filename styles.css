@@ -1,0 +1,228 @@
+body {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  color: #818498;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.title {
+  font-family: "Fraunces", serif;
+  word-spacing: 1rem;
+  font-weight: 700;
+}
+
+section img {
+  width: 100%;
+}
+
+.row > * {
+  padding: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.header {
+  padding-top: 2rem;
+  color: white;
+  background: url("../images/desktop/image-header.jpg") no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+.header .title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  padding-top: 6rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+.nav li {
+  list-style: none;
+  margin: 0 15px;
+  padding: 10px 25px;
+}
+.nav .show {
+  text-align: center;
+  margin-top: 0.5rem;
+  margin-left: 10rem;
+  padding: 1rem 5rem;
+  display: block;
+  background: white;
+  position: absolute;
+}
+.nav .show .contact {
+  background: #e6e610;
+}
+.nav .show a {
+  color: #5a636c;
+}
+.nav .contact {
+  background-color: white;
+  border-radius: 3rem;
+}
+.nav .contact a {
+  color: #818498;
+}
+.nav .contact:hover {
+  background: #56a8f5;
+}
+.nav .contact:hover a {
+  color: #fff;
+}
+
+.hamburgar {
+  display: none;
+}
+
+.logo {
+  padding: 10px 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5rem;
+  color: #23303e;
+}
+
+.info__description {
+  color: #818498;
+  margin: 1.5rem 0;
+}
+
+.info__btn {
+  color: #23303e;
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.service {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 35rem;
+  margin-top: -5px;
+}
+
+.service__title {
+  padding-bottom: 0;
+}
+
+.service__description {
+  padding: 1rem 8rem 4rem;
+}
+
+.graphic {
+  background: url("../images/desktop/image-graphic-design.jpg");
+  color: #25564b;
+}
+
+.photography {
+  background: url("../images/desktop/image-photography.jpg");
+  color: #19536b;
+}
+
+.testimonialContainer {
+  text-align: center;
+  padding: 8rem 0;
+}
+
+.testimonial__title {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.testimonial {
+  padding: 0 1rem;
+}
+.testimonial .review {
+  padding: 0 2rem;
+}
+.testimonial img {
+  width: auto;
+  border-radius: 50%;
+  margin: 5rem 0;
+}
+
+.name {
+  font-family: "Fraunces", serif;
+  color: #23303e;
+  font-size: 20px;
+  margin-top: 5rem;
+}
+
+.footer {
+  text-align: center;
+  background: #458c7e;
+  padding: 2rem 0;
+}
+.footer a {
+  font-weight: bolder;
+  color: #25564b;
+}
+.footer a:hover {
+  color: white;
+}
+.footer .logo {
+  font-size: 2rem;
+}
+.footer li {
+  display: inline-block;
+  margin: 30px 10px;
+}
+.footer img {
+  margin: 0 10px;
+}
+
+@media (max-width: 710px) {
+  .header ul {
+    display: none;
+  }
+  .title {
+    font-size: 2.5rem;
+    padding: 5rem;
+  }
+  .nav {
+    display: inline-block;
+  }
+  .hamburgar {
+    display: block;
+    float: right;
+    cursor: pointer;
+    font-size: 26px;
+  }
+  .info {
+    text-align: center;
+    padding: 5rem;
+  }
+  .testimonial {
+    padding: 0 5rem;
+    padding-bottom: 5rem;
+  }
+}
