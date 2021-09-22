@@ -1,4 +1,4 @@
-Hi Newton school,
+Hi Peoples
 welcome to my sunnyside(photo)-agency page
 
 #Description:-
